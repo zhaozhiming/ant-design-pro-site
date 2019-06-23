@@ -140,9 +140,9 @@ $ npm test -- --coverage
 
 使用 `xit()` 取代 `it()` 可以暂时忽略用例，`fit()` 可以聚焦当前用例并忽略其他所有用例。这两个方法可以帮助你在开发过程中只关注当前需要的用例。
 
-## 接入集成测试服务
+## 接入持续集成服务
 
-如果需要接入 travis、CircleCI、Gitlab CI 等集成测试环境，可以参考本仓库提供的 `.travis.yml`。
+如果需要接入 travis、CircleCI、Gitlab CI 等持续集成环境，可以参考本仓库提供的 `.travis.yml`。
 
 注意 e2e 测试需要集成环境支持 electron，如果不支持，你可以使用 `npm test .test.js` 单独运行单元测试。
 
